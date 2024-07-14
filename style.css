@@ -1,0 +1,192 @@
+*{
+    font-size: 40px;
+    font-family: calibri;
+}
+
+input{
+    
+    border: 3px solid;
+    font-size: 34px;
+}
+button{
+    
+    font-size: 40px;
+    background-color: aquamarine;
+    border: 3px solid;
+    width: 102px;
+    height: 58px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #36699f;
+    padding: 10px 20px;
+}
+
+.logo h1 {
+    color: white;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-inline: 20px;
+}
+ul li a:hover{
+    color:#333;
+    border-bottom: 2px solid black;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f1e720;
+}
+
+.mainText {
+    max-width: 50%;
+}
+
+.mainText h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.mainText h3 {
+    font-size: 1.5em;
+    color: #666;
+    margin: 0 0 20px 0;
+}
+
+.mainText button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f2340e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mainText button:hover {
+    background-color: #0056b3;
+}
+
+.main img {
+    max-width: 45%;
+    height: auto;
+}
+
+#doctor {
+    padding: 50px 20px;
+    background-color: #f1f1f1;
+}
+
+#doctor .head h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.card p:first-of-type {
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+.card p:last-of-type {
+    color: #777;
+}
+
+#contact {
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+#contact .head h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contact .head input {
+    width: calc(50% - 22px);
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact .head button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f64c3d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact .head button:hover {
+    background-color: #0056b3;
+}
